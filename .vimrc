@@ -1,3 +1,8 @@
+"------General------
+
+" It includes determining the file type, downloading the corresponding plugins and indentation files.
+filetype plugin indent on
+
 " Set compatibility to Vim only
 set nocompatible
 
@@ -50,3 +55,17 @@ set smartcase
 
 " Show the matching part of pairs [] {} && ()
 set showmatch
+
+" Enable mouse
+set mouse=a
+
+"------Plugins------
+
+"VimPlug
+" :PlugInstall
+" :PlugUpdate
+" :PlugClean
+" :PlugUpgrade
+" :PlugStatus
+" :PlugDiff
+" :PlugSnapshot
