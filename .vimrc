@@ -27,13 +27,13 @@ set wrap
 set tabstop 	=4
 set softtabstop =4
 set shiftwidth 	=4
-set textwidth 	=95
+set textwidth 	=104
 set autoindent
 set smartindent
 
 " Enable/Disable highlighting the max length of string
-nnoremap <Leader>cc :set colorcolumn=96<cr>
-nnoremap <Leader>ncc :set colorcolumn-=96<cr>
+nnoremap <Leader>cc :set colorcolumn=105<cr>:highlight ColorColumn ctermbg=LightGray guibg=LightGray<cr>
+nnoremap <Leader>ncc :set colorcolumn-=105<cr>:highlight ColorColumn NONE<cr>
 
 " Show file stats
 set ruler
