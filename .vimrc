@@ -17,7 +17,7 @@ set cursorline
 :highlight Cursorline cterm=bold ctermbg=DarkGray
 
 " Status bar
-set laststatus=2
+" set laststatus=2
 
 " Automatically wrap text that extends beyond the screen length
 set wrap
@@ -45,6 +45,7 @@ set ruler
 
 " Encoding
 set encoding=utf-8
+scriptencoding utf-8
 
 " Use highlighting when doing a search.
 set hlsearch
@@ -80,5 +81,14 @@ if empty(glob('~/.vim/autoload/plug.vim')) " If there is no vim-plug
 endif
 
 call plug#begin('~/.vim/bundle')
-
+Plug 'vim-airline/vim-airline' 
 call plug#end()
+
+" Airline 
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#show_tab_nr = 1
+let g:airline#extensions#tabline#tab_nr_type = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
+let g:airline#extensions#whitespace#enabled = 0
+"let g:airline#extensions#branch#enabled = 1
