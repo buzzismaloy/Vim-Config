@@ -69,3 +69,16 @@ set mouse=a
 " :PlugStatus
 " :PlugDiff
 " :PlugSnapshot
+
+" Automatically download vim-plug
+if empty(glob('~/.vim/autoload/plug.vim')) " If there is no vim-plug
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs 
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  " Create dir and download the vim plug
+  " After that run PlugInstall command
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+call plug#begin('~/.vim/bundle')
+
+call plug#end()
