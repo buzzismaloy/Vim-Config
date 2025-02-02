@@ -69,6 +69,16 @@ let &t_EI.="\e[1 q"
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
+" Map tabn, tabp, tabc to  tn, tp, tc
+map <Leader>tn :tabn<cr>
+map <Leader>tp :tabp<cr>
+map <Leader>tc :tabc<cr>
+
+" Map bn, bp, bd for buffers
+map <Leader>bn :bn<cr>
+map <Leader>bp :bp<cr>
+map <Leader>bd :bd<cr>
+
 "------Plugins------
 
 "VimPlug
