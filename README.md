@@ -1,5 +1,7 @@
 # .vimrc
+
 My simple vim configuration
 
 # Plugins
-Yet no plugins used
+
+1. `[Airline]`(https://github.com/vim-airline/vim-airline)
