@@ -101,6 +101,7 @@ endif
 
 call plug#begin('~/.vim/bundle')
 Plug 'vim-airline/vim-airline'
+Plug 'preservim/nerdtree'
 call plug#end()
 
 " Airline
@@ -111,3 +112,9 @@ let g:airline#extensions#tabline#tab_nr_type = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline#extensions#whitespace#enabled = 1
 "let g:airline#extensions#branch#enabled = 1
+
+" NerdTree
+nnoremap <C-t> :NERDTreeToggle<cr>
+nnoremap <C-f> :NERDTreeFind<cr>
+" nnoremap <leader>nf :NERDTreeFocus<CR>
+let g:NERDTreeFileLines = 1
