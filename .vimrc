@@ -41,7 +41,7 @@ nnoremap <Leader>cc :set colorcolumn=105<cr>:highlight ColorColumn ctermbg=Light
 nnoremap <Leader>ncc :set colorcolumn-=105<cr>:highlight ColorColumn NONE<cr>
 
 " Show file stats
-set ruler
+"set ruler
 
 " Encoding
 set encoding=utf-8
