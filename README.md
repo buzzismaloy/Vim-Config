@@ -16,3 +16,19 @@ My simple vim configuration
 * **bnext, bprevious, bdelete** - `<Leader> + [bn, bp, bd]`
 * **NERDTreeToggle** - `Ctrl + t`
 * **NERDTreeFind** - `Ctrl + f`
+
+# Installation
+
+0. You are required `curl` to install `Vim-Plug`, so make sure you have one.
+1. Clone git repository:
+```bash
+git clone https://github.com/buzzismaloy/Vim-Config.git
+```
+2. Go to the Vim-Config and copy the `.vimrc`:
+```bash
+cd Vim-Config && cp ~/.vimrc
+```
+3. Open Vim:
+```bash
+vim
+```
