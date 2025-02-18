@@ -19,7 +19,10 @@ My simple vim configuration
 
 # Installation
 
-0. You are required `curl` to install `Vim-Plug`, so make sure you have one.
+0. You are required `curl` to install `Vim-Plug`, so make sure you have one:
+```bash
+curl --version
+```
 1. Clone git repository:
 ```bash
 git clone https://github.com/buzzismaloy/Vim-Config.git
