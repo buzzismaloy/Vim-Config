@@ -79,6 +79,9 @@ map <Leader>bn :bn<cr>
 map <Leader>bp :bp<cr>
 map <Leader>bd :bd<cr>
 
+" To get cool visuals with catppuccin
+set termguicolors
+
 "------Plugins------
 
 "VimPlug
@@ -102,6 +105,7 @@ endif
 call plug#begin('~/.vim/bundle')
 Plug 'vim-airline/vim-airline'
 Plug 'preservim/nerdtree'
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 call plug#end()
 
 " Airline
@@ -112,6 +116,11 @@ let g:airline#extensions#tabline#tab_nr_type = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline#extensions#whitespace#enabled = 1
 "let g:airline#extensions#branch#enabled = 1
+let g:airline_theme = 'catppuccin_mocha'
+
+" Set the catppuccin(there are frappe, mocha, latte and macchiato)
+" colorscheme
+colorscheme catppuccin_frappe
 
 " NerdTree
 nnoremap <C-t> :NERDTreeToggle<cr>
