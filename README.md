@@ -9,6 +9,7 @@ My simple vim configuration
 3. [NERDTree](https://github.com/preservim/nerdtree)
 4. [Catppuccin](https://github.com/catppuccin/vim)
 5. [Coc.nvim](https://github.com/neoclide/coc.nvim)
+6. [Fugitive.vim](https://github.com/tpope/vim-fugitive)
 
 # Shortcuts
 
