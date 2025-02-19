@@ -82,6 +82,10 @@ map <Leader>bd :bd<cr>
 " To get cool visuals with catppuccin
 set termguicolors
 
+" Having longer updatetime (default is 4000 ms = 4s) leads to noticeable
+" delays and poor user experience
+set updatetime=1500
+
 "------Plugins------
 
 "VimPlug
@@ -106,6 +110,7 @@ call plug#begin('~/.vim/bundle')
 Plug 'vim-airline/vim-airline'
 Plug 'preservim/nerdtree'
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 " Airline
@@ -127,3 +132,15 @@ nnoremap <C-t> :NERDTreeToggle<cr>
 nnoremap <C-f> :NERDTreeFind<cr>
 " nnoremap <leader>nf :NERDTreeFocus<CR>
 let g:NERDTreeFileLines = 1
+
+" coc.nvim
+" use <tab> to trigger completion and navigate to the next complete item
+function! CheckBackspace() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+inoremap <silent><expr> <Tab>
+      \ coc#pum#visible() ? coc#pum#next(1) :
+      \ CheckBackspace() ? "\<Tab>" :
+      \ coc#refresh()
