@@ -47,7 +47,7 @@ cd Vim-Config && cp ~/.vimrc
 vim
 ```
 
-# CoC tips
+# Coc tips
 
 * To open the command list, use the `:CocList commands` command and choose one you need:
 ```
@@ -68,3 +68,5 @@ vim
 
 For more information visit the Coc.nvim [wiki page](https://github.com/neoclide/coc.nvim/wiki)
 
+Also, to see the languages supported by coc.nvim, check
+this [page](https://github.com/neoclide/coc.nvim/wiki/Language-servers#supported-features)
