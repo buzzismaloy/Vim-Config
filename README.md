@@ -2,6 +2,13 @@
 
 My simple vim configuration
 
+# Gallery
+
+![gallery](pics/1.png)
+![gallery](pics/2.png)
+![gallery](pics/3.png)
+![gallery](pics/4.png)
+
 # Plugins
 
 1. [Vim-Plug](https://github.com/junegunn/vim-plug)
