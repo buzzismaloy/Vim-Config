@@ -46,3 +46,25 @@ cd Vim-Config && cp ~/.vimrc
 ```bash
 vim
 ```
+
+# CoC tips
+
+* To open the command list, use the `:CocList commands` command and choose one you need:
+```
+:CocList commands
+```
+* To install the extension use the `:CocInstall` command:
+```
+:CocInstall <the_name_of_extension>
+```
+* To uninstall the coc extension installed by `:CocInstall` use `:CocUninstall` command:
+```
+:CocUninstall <the_name_of_extension>
+```
+* To see the list of installed coc extensions use `CocList` command:
+```
+:CocList extensions
+```
+
+For more information visit the Coc.nvim [wiki page](https://github.com/neoclide/coc.nvim/wiki)
+
