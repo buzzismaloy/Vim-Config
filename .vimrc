@@ -84,7 +84,11 @@ set termguicolors
 
 " Having longer updatetime (default is 4000 ms = 4s) leads to noticeable
 " delays and poor user experience
-set updatetime=1200
+set updatetime=1100
+
+" Jump 10 lines up and down with ctrl-k and ctrl-j
+nnoremap <C-k> 10k
+nnoremap <C-j> 10j
 
 "------Plugins------
 
