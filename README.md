@@ -19,6 +19,8 @@ My simple vim configuration
 * **bnext, bprevious, bdelete** - `<Leader> + [bn, bp, bd]`
 * **NERDTreeToggle** - `Ctrl + t`
 * **NERDTreeFind** - `Ctrl + f`
+* **Jump 10 lines up** - `Ctrl + k`
+* **Jump 10 lines down** - `Ctrl + j`
 
 # Dependencies
 
