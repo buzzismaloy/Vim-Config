@@ -8,6 +8,7 @@ My simple vim configuration
 2. [Airline](https://github.com/vim-airline/vim-airline)
 3. [NERDTree](https://github.com/preservim/nerdtree)
 4. [Catppuccin](https://github.com/catppuccin/vim)
+5. [Coc.nvim](https://github.com/neoclide/coc.nvim)
 
 # Shortcuts
 
@@ -18,12 +19,20 @@ My simple vim configuration
 * **NERDTreeToggle** - `Ctrl + t`
 * **NERDTreeFind** - `Ctrl + f`
 
-# Installation
+# Dependencies
 
-0. You are required `curl` to install `Vim-Plug`, so make sure you have one:
+1. You are required `curl` to install `Vim-Plug`, so make sure you have one:
 ```bash
 curl --version
 ```
+2. You are required [Node.js](https://nodejs.org/en/download/package-manager/all) to run `coc.nvim`,
+   so make sure you have one:
+```bash
+node -v
+```
+
+# Installation
+
 1. Clone git repository:
 ```bash
 git clone https://github.com/buzzismaloy/Vim-Config.git
