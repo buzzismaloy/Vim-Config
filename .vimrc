@@ -84,7 +84,7 @@ set termguicolors
 
 " Having longer updatetime (default is 4000 ms = 4s) leads to noticeable
 " delays and poor user experience
-set updatetime=1500
+set updatetime=1200
 
 "------Plugins------
 
@@ -111,6 +111,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'preservim/nerdtree'
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " Airline
@@ -120,7 +121,7 @@ let g:airline#extensions#tabline#show_tab_nr = 1
 let g:airline#extensions#tabline#tab_nr_type = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline#extensions#whitespace#enabled = 1
-"let g:airline#extensions#branch#enabled = 1
+let g:airline#extensions#branch#enabled = 1
 let g:airline_theme = 'catppuccin_mocha'
 
 " Set the catppuccin(there are frappe, mocha, latte and macchiato)
