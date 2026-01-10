@@ -17,6 +17,7 @@ My simple vim configuration
 4. [Catppuccin](https://github.com/catppuccin/vim)
 5. [Coc.nvim](https://github.com/neoclide/coc.nvim)
 6. [Fugitive.vim](https://github.com/tpope/vim-fugitive)
+7. [Vim-Cursorword](https://github.com/itchyny/vim-cursorword)
 
 # Shortcuts
 

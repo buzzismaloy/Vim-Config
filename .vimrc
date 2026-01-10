@@ -116,6 +116,7 @@ Plug 'preservim/nerdtree'
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-fugitive'
+Plug 'itchyny/vim-cursorword'
 call plug#end()
 
 " Airline
