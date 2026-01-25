@@ -90,6 +90,9 @@ set updatetime=1100
 nnoremap <C-k> 10k
 nnoremap <C-j> 10j
 
+" Make Vim use system clipboard by default
+set clipboard=unnamedplus
+
 "------Plugins------
 
 "VimPlug

@@ -42,6 +42,15 @@ curl --version
 node -v
 ```
 
+3. If you want vim and your system to share the same clipboard you need to install(or build)
+   clipboard-enabled vim
+
+Arch
+
+```bash
+sudo pacman -S gvim
+```
+
 # Installation
 
 1. Clone git repository:
