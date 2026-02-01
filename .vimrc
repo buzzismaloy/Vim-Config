@@ -89,6 +89,8 @@ set updatetime=1100
 " Jump 10 lines up and down with ctrl-k and ctrl-j
 nnoremap <C-k> 10k
 nnoremap <C-j> 10j
+nnoremap <C-h> 10h
+nnoremap <C-l> 10l
 
 " Make Vim use system clipboard by default
 set clipboard=unnamedplus
@@ -120,6 +122,7 @@ Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-fugitive'
 Plug 'itchyny/vim-cursorword'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 call plug#end()
 
 " Airline
@@ -153,3 +156,5 @@ inoremap <silent><expr> <Tab>
       \ coc#pum#visible() ? coc#pum#next(1) :
       \ CheckBackspace() ? "\<Tab>" :
       \ coc#refresh()
+
+inoremap <expr> <S-Tab> coc#pum#visible() ? coc#pum#prev(1) : "\<S-Tab>"

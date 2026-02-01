@@ -18,6 +18,7 @@ My simple vim configuration
 5. [Coc.nvim](https://github.com/neoclide/coc.nvim)
 6. [Fugitive.vim](https://github.com/tpope/vim-fugitive)
 7. [Vim-Cursorword](https://github.com/itchyny/vim-cursorword)
+8. [Vim-go](https://github.com/fatih/vim-go)
 
 # Shortcuts
 
@@ -29,6 +30,9 @@ My simple vim configuration
 * **NERDTreeFind** - `Ctrl + f`
 * **Jump 10 lines up** - `Ctrl + k`
 * **Jump 10 lines down** - `Ctrl + j`
+* **Jump 10 lines right** - `Ctrl + l`
+* **Jump 10 lines left** - `Ctrl + h`
+* **Navigate the completion list** - `Tab/Shift + tab`
 
 # Dependencies
 
