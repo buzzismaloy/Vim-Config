@@ -2,6 +2,9 @@
 
 My simple vim configuration
 
+
+[![Last Commit](https://img.shields.io/github/last-commit/buzzismaloy/Vim-Config?style=for-the-badge&logo=github&color=B5E8E0&logoColor=D9E0EE&labelColor=302D41)](https://github.com/buzzismaloy/Vim-Config/commits/main/)
+
 # Gallery
 
 ![gallery](pics/1.png)
