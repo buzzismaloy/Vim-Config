@@ -33,6 +33,7 @@ set tabstop 	=4
 set softtabstop =4
 set shiftwidth 	=4
 set textwidth 	=104
+set smarttab
 set autoindent
 set smartindent
 
@@ -87,10 +88,11 @@ set termguicolors
 set updatetime=1100
 
 " Jump 10 lines up and down with ctrl-k and ctrl-j
+" Jump 15 lines right and left with ctrl-l and ctrl-h
 nnoremap <C-k> 10k
 nnoremap <C-j> 10j
-nnoremap <C-h> 10h
-nnoremap <C-l> 10l
+nnoremap <C-h> 15h
+nnoremap <C-l> 15l
 
 " Make Vim use system clipboard by default
 set clipboard=unnamedplus
@@ -157,4 +159,8 @@ inoremap <silent><expr> <Tab>
       \ CheckBackspace() ? "\<Tab>" :
       \ coc#refresh()
 
+" use <shitf-tab> to trigger completion and navigate to the previous complete item
 inoremap <expr> <S-Tab> coc#pum#visible() ? coc#pum#prev(1) : "\<S-Tab>"
+
+" use <cr>(enter) to make it confirm completion:
+inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
