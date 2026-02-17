@@ -8,12 +8,13 @@ My simple vim configuration
 # Gallery
 
 <details>
-<summary> Click to see more screenshots</summary>
+<summary> Click to see screenshots</summary>
 
 ![gallery](pics/1.png)
 ![gallery](pics/2.png)
 ![gallery](pics/3.png)
 ![gallery](pics/4.png)
+![gallery](pics/5.png)
 
 </details>
 
