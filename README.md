@@ -1,8 +1,8 @@
-# .vimrc
+# About Vim configuration
 
 My simple vim configuration
 
-
+[![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white)](https://www.vim.org)
 [![Last Commit](https://img.shields.io/github/last-commit/buzzismaloy/Vim-Config?style=for-the-badge&logo=github&color=B5E8E0&logoColor=D9E0EE&labelColor=302D41)](https://github.com/buzzismaloy/Vim-Config/commits/main/)
 
 # Gallery
@@ -14,15 +14,17 @@ My simple vim configuration
 
 # Plugins
 
-1. [Vim-Plug](https://github.com/junegunn/vim-plug)
-2. [Airline](https://github.com/vim-airline/vim-airline)
-3. [NERDTree](https://github.com/preservim/nerdtree)
-4. [Catppuccin](https://github.com/catppuccin/vim)
-5. [Coc.nvim](https://github.com/neoclide/coc.nvim)
-6. [Fugitive.vim](https://github.com/tpope/vim-fugitive)
-7. [Vim-Cursorword](https://github.com/itchyny/vim-cursorword)
-8. [Vim-go](https://github.com/fatih/vim-go)
-9. [Vim-devicons](https://github.com/ryanoasis/vim-devicons)
+| № | Plugin name |
+|---|-------------|
+| 1. | [Vim-Plug](https://github.com/junegunn/vim-plug) |
+| 2. | [Airline](https://github.com/vim-airline/vim-airline) |
+| 3. | [NERDTree](https://github.com/preservim/nerdtree) |
+| 4. | [Catppuccin](https://github.com/catppuccin/vim) |
+| 5. [Coc.nvim](https://github.com/neoclide/coc.nvim) |
+| 6. [Fugitive.vim](https://github.com/tpope/vim-fugitive) |
+| 7. [Vim-Cursorword](https://github.com/itchyny/vim-cursorword) |
+| 8. [Vim-go](https://github.com/fatih/vim-go) |
+| 9. [Vim-devicons](https://github.com/ryanoasis/vim-devicons) |
 
 # Shortcuts
 
