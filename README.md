@@ -22,6 +22,7 @@ My simple vim configuration
 6. [Fugitive.vim](https://github.com/tpope/vim-fugitive)
 7. [Vim-Cursorword](https://github.com/itchyny/vim-cursorword)
 8. [Vim-go](https://github.com/fatih/vim-go)
+9. [Vim-devicons](https://github.com/ryanoasis/vim-devicons)
 
 # Shortcuts
 

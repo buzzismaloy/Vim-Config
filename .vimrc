@@ -97,6 +97,9 @@ nnoremap <C-l> 15l
 " Make Vim use system clipboard by default
 set clipboard=unnamedplus
 
+" Set fast scrolling
+set ttyfast
+
 "------Plugins------
 
 "VimPlug
@@ -125,6 +128,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-fugitive'
 Plug 'itchyny/vim-cursorword'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 " Airline
