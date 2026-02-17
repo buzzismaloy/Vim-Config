@@ -20,11 +20,11 @@ My simple vim configuration
 | 2. | [Airline](https://github.com/vim-airline/vim-airline) |
 | 3. | [NERDTree](https://github.com/preservim/nerdtree) |
 | 4. | [Catppuccin](https://github.com/catppuccin/vim) |
-| 5. [Coc.nvim](https://github.com/neoclide/coc.nvim) |
-| 6. [Fugitive.vim](https://github.com/tpope/vim-fugitive) |
-| 7. [Vim-Cursorword](https://github.com/itchyny/vim-cursorword) |
-| 8. [Vim-go](https://github.com/fatih/vim-go) |
-| 9. [Vim-devicons](https://github.com/ryanoasis/vim-devicons) |
+| 5. | [Coc.nvim](https://github.com/neoclide/coc.nvim) |
+| 6. | [Fugitive.vim](https://github.com/tpope/vim-fugitive) |
+| 7. | [Vim-Cursorword](https://github.com/itchyny/vim-cursorword) |
+| 8. | [Vim-go](https://github.com/fatih/vim-go) |
+| 9. | [Vim-devicons](https://github.com/ryanoasis/vim-devicons) |
 
 # Shortcuts
 
