@@ -7,10 +7,15 @@ My simple vim configuration
 
 # Gallery
 
+<details>
+<summary> Click to see more screenshots</summary>
+
 ![gallery](pics/1.png)
 ![gallery](pics/2.png)
 ![gallery](pics/3.png)
 ![gallery](pics/4.png)
+
+</details>
 
 # Plugins
 
